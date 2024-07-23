@@ -74,7 +74,7 @@ class UrTube:
                 while video.time_now < video.duration:
                     video.time_now += 1
                     print(f'{video.time_now}')
-                    #time.sleep(1)
+                    time.sleep(1)
                 print('Конец видео')
                 video.time_now = 0
                 return
